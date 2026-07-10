@@ -99,7 +99,7 @@ function ActionRail({go}:{go:(p:string)=>void}){return <aside className="action-
   </aside>}
 
 function Hero({go}:{go:(p:string)=>void}){return <section className="hero">
-  <div className="hero-photo" aria-label="Kamala Harris"><img src="/campaign-reference.png" alt="Kamala Harris speaking outside a civic building"/></div>
+  <div className="hero-photo" aria-label="Kamala Harris"><img src="/kamala-campaign-event.png" alt="Kamala Harris greeting supporters at an outdoor campaign event"/></div>
   <div className="hero-shade"/>
   <div className="hero-content"><span className="hero-kicker">A GOVERNOR FOR ALL OF LINCOLN</span><h1>Justice for every family.<br/><em>Opportunity</em> in every county.</h1><p>Kamala Harris has spent her career enforcing the law, defending constitutional rights, and holding power accountable. Now she’s running to deliver serious, effective leadership for Lincoln.</p><div className="hero-actions"><Button kind="red" onClick={()=>go("/donate")}>DONATE</Button><Button kind="white" onClick={()=>go("/involved")}>JOIN THE CAMPAIGN</Button><Button kind="outline" onClick={()=>go("/issues")}>READ THE PLATFORM</Button></div></div>
   </section>}
